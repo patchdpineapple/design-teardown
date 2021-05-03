@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+/* variables */
+:root {
+  --anchor: #08c;
+}
+
+/* reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", Arial, Verdana, sans-serif;
+    vertical-align: baseline;
+    list-style: none;
+  }
+
+  
