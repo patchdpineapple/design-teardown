@@ -109,6 +109,7 @@
     width: 120px;
     height: 40px;
     border-radius: 5px;
+    background: var(--gray6);
 }
 
 .nav-form > label > input {
@@ -138,9 +139,9 @@
 .outer-main {
     min-height: 500px;
 }
-
+/* section1 */
 .front-guides {
-    margin: 20px auto 0 auto;
+    margin: 20px auto 40px auto;
     width: 90%;
     display: flex;
     text-align: center;
@@ -151,12 +152,11 @@
     height: 100%;
     display: flex;
     flex-flow: column;
-
 }
 
 .main-guide {
     width: 800px;
-    background: var(--gray3);
+    background: var(--gray2);
     font-size: 24px;
     text-align: left;
     padding: 20px;
@@ -191,7 +191,7 @@
 
 .other-guide {
     width: 800px;
-    background: var(--gray3);
+    background: var(--gray2);
     font-size: 18px;
     text-align: left;
     padding: 40px;
@@ -238,7 +238,7 @@
 
 .btn-email-newsletter {
     font-size: 24px;
-    background: white;
+    background: var(--gray1);
     color: var(--gray7);
     border-radius: 5px;
 }
@@ -269,11 +269,111 @@
     height: 100%;
     font-size: inherit;
     border-radius: 0 5px  5px 0;
+    background: var(--gray6);
 }
 
+/* section2 */
+.guide-cards {
+    margin: 20px auto 40px auto;
+    width: 90%;
+    min-height: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card {
+    text-align: left;
+    width: 350px;
+    min-height: 610px;
+    background: var(--gray2);
+    padding: 40px;
+}
+
+.card > * {
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.card > p {
+    font-size: 18px;
+}
+
+.card > div:first-child {
+   font-size: 20px;
+}
+
+.card > div:first-child > p {
+    font-size: 12px;
+ }
+
+ .btn-card {
+     display: block;
+     font-size: 24px;
+     border-radius: 5px;
+     padding: 15px 20px;
+     background: var(--gray6);
+ }
+
+ /* section3 */
+.latest-posts {
+    margin: 20px auto 40px auto;
+    width: 85%;
+    min-height: 400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    grid-gap: 100px 0;
+}
+
+.post {
+    width: 540px;
+    display: flex;
+    background: var(--gray3);
+}
+
+.poster-pic {
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+}
+
+.poster-pic > a > img {
+    width: 60px;
+    height: 60px;
+    background: var(--gray6);
+    border-radius: 10px;
+    transform: rotateZ(-25deg);
+    }
+
+.post-info {
+    width: 440px;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+
+.post-info > * {
+    margin-bottom: 30px;
+}
+
+.post-info p {
+    font-size: 16px;
+}
+
+ /* load more links */
+ .load-more {
+     width: 100%;
+     text-align: center;
+     margin-bottom: 40px;
+ }
+
+ .load-more > a {
+     padding: 10px;
+     background: var(--gray2);
+ }
 /* footer */
 .outer-footer {
     background: var(--gray5);
-    height: 400px;
+    height: 800px;
     border: 5px solid rebeccapurple;
 }
