@@ -340,7 +340,7 @@
 .post {
     width: 540px;
     display: flex;
-    background: var(--gray3);
+    background: var(--gray1);
 }
 
 .poster-pic {
@@ -369,6 +369,8 @@
 
 .post-info p {
     font-size: 16px;
+    font-family: 'Merriweather', serif;
+    line-height: 1.8;
 }
 /* section4 */
 .more-choices {
@@ -482,6 +484,58 @@
     margin-bottom: 50px;
 }
 
+/* section6 */
+.community-links {
+    margin: 20px auto 40px auto;
+    width: 85%;
+    min-height: 1000px;
+}
+
+.featured-link {
+    width: 100%;
+    background: var(--gray2);
+    display: flex;
+    padding: 50px;
+}
+
+.featured-pic img {
+    width: 180px;
+    height: 180px;
+    border-radius: 10px;
+    transform: rotateZ(-15deg);
+    background: var(--gray6);
+}
+
+.featured-info {
+    margin-left: 50px;
+}
+
+.featured-info > * {
+    font-family: 'Merriweather', serif;
+    font-size: 18px;
+}
+
+.featured-info > h3 {
+    margin-bottom: 30px;
+}
+
+.other-links {
+    width: 100%;
+    min-height: 400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    grid-gap: 50px 0;
+    margin-top: 30px;
+}
+
+.link {
+    height: 300px;
+}
+
+.link .post-info > * {
+    margin-bottom: 10px;
+}
 
  /* load more links */
  .load-more {
@@ -497,11 +551,10 @@
 
  .load-more > a {
      padding: 10px;
-     background: var(--gray2);
+     background: var(--gray1);
  }
 /* footer */
 .outer-footer {
     background: var(--gray5);
-    height: 800px;
-    border: 5px solid rebeccapurple;
+    height: 650px;
 }
