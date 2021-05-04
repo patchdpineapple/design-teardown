@@ -359,6 +359,62 @@
 .post-info p {
     font-size: 16px;
 }
+/* section4 */
+.more-choices {
+    margin: 20px auto 40px auto;
+    width: 85%;
+    min-height: 400px;
+    font-size: 30px;
+}
+
+.more-choices > div:first-child {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.choices-container {
+    width: 100%;
+    overflow: scroll;
+    white-space: nowrap;
+    display: flex;
+}
+
+.choice {
+    background: var(--gray3);
+    width: 1000px;
+    margin: 120px 40px 20px 40px;  
+    padding: 20px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.choice-art {
+    background: var(--gray6);
+    width: 180px;
+    height: 180px;
+    margin-top: -100px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+
+.choice > h5, .choice > div:nth-child(3) {
+    margin-bottom: 30px;
+}
+
+.choice > div:nth-child(3) {
+    width: 100%;
+    font-size: 16px;
+    text-align: center;
+}
+
+.btn-jump {
+    font-size: 24px;
+    background: var(--gray6);
+    border-radius: 5px;
+    margin-bottom: 100px;
+}
 
  /* load more links */
  .load-more {
